@@ -1,4 +1,3 @@
-# Practice questions
 # WAP to calculate sum of two numbers
 a = int(input("Enter 1st number: "))
 b = int(input("Enter 2nd number: "))
