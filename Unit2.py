@@ -86,3 +86,22 @@ stmt = " lol idk lol what is this lol lol"
 print(stmt.count("lol"))
 print(stmt.count("i"))
 
+print("---Conditional Statements---")
+# 1] if-elif-else staatement:
+# Syntax:- if(condition):
+#             statement 1
+#          elif(condition):
+#             statement 2
+#          else:
+#             statement n
+# Example:
+age = int(input("Enter your age: "))
+if(age>=18):
+    print("Can drive")
+    print("Can vote")
+elif(age==18):
+    print("Just became an adult")
+else:
+    print("Cannot drive")
+    print("Cannot vote")
+    print("is a kiddo")
