@@ -87,7 +87,8 @@ print(stmt.count("lol"))
 print(stmt.count("i"))
 
 print("---Conditional Statements---")
-# 1] if-elif-else staatement:
+# Note: Proper indentation (spacing) is necessary in these statements
+print("if-elif-else statement:")
 # Syntax:- if(condition):
 #             statement 1
 #          elif(condition):
@@ -95,13 +96,29 @@ print("---Conditional Statements---")
 #          else:
 #             statement n
 # Example:
-age = int(input("Enter your age: "))
+age = 14
+print("age is ",age)
 if(age>=18):
-    print("Can drive")
-    print("Can vote")
+    if(age>=80):            # nested if-else statement/ nesting
+        print("Senior citizen cannot drive")
+    else:
+        print("Can drive")
+        print("Can vote")
 elif(age==18):
     print("Just became an adult")
 else:
     print("Cannot drive")
     print("Cannot vote")
     print("is a kiddo")
+
+marks = int(input("Enter your marks:"))
+if(marks>90):
+    grade = "A"
+elif(marks>80 and marks<90):
+    grade = "B"
+elif(marks>70 and marks<80):
+    grade = "C"
+else:
+    grade = "D"
+print("Your grade as per marks is: ",grade)
+
