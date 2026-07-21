@@ -88,4 +88,5 @@ print("--- File handling using with statement ---")
 # Example of using with statement for file handling
 with open("example.txt", "r") as file:    # This will open the file
     content = file.read()    # This will read the entire content of the file and store it in the variable content.
-    print(content)    # This will print the content of the file to the console. 
+    print(content)    # This will print the content of the file to the console.
+    
